@@ -20,4 +20,10 @@ lbl_username.pack()
 ent_username = tk.Entry(frame_login, bd=3)
 ent_username.pack()
 
+# Same as above for password
+lbl_password = tk.Label(frame_login, text='Password:', font=standard_font)
+lbl_password.pack()
+ent_password = tk.Entry(frame_login, bd=3)
+ent_password.pack()
+
 root.mainloop()
