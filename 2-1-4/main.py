@@ -23,7 +23,10 @@ ent_username.pack(padx=50)
 # Same as above 2 for password
 lbl_password = tk.Label(frame_login, text='Password:', font=standard_font)
 lbl_password.pack()
-ent_password = tk.Entry(frame_login, bd=3)
+ent_password = tk.Entry(frame_login, bd=3, show='*')
 ent_password.pack(padx=50)
+
+button_login = tk.Button(frame_login, text='Login', font=standard_font)
+button_login.pack(padx=50, pady=10)
 
 root.mainloop()
