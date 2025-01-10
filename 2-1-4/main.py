@@ -26,6 +26,7 @@ lbl_password.pack()
 ent_password = tk.Entry(frame_login, bd=3, show='*')
 ent_password.pack(padx=50)
 
+# Login button
 button_login = tk.Button(frame_login, text='Login', font=standard_font)
 button_login.pack(padx=50, pady=10)
 
