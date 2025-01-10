@@ -11,8 +11,11 @@ frame_login = tk.Frame(root)
 # create empty frame (new window for components in roots)
 frame_login.grid()
 
-# widgets for frame_login
+# Defining font
 standard_font = tkFont.Font(family="Helvetica", size=13, weight="bold")
+
+# widgets for frame_login
+# Username lbl
 lbl_username = tk.Label(frame_login, text='Username:', font=standard_font)
 lbl_username.pack()
 
